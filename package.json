@@ -1,0 +1,26 @@
+{
+  "name": "test-3itech-frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "js-build": "webpack --mode=production",
+    "css-build": "compass compile --sourcemap"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "latest",
+    "@babel/preset-env": "latest",
+    "babel-loader": "latest",
+    "eslint": "latest",
+    "eslint-config-airbnb": "latest",
+    "eslint-config-airbnb-base": "latest",
+    "eslint-plugin-import": "latest",
+    "stylelint": "latest",
+    "stylelint-config-airbnb": "latest",
+    "stylelint-order": "latest",
+    "stylelint-scss": "latest",
+    "webpack-cli": "^5.1.4"
+  }
+}
